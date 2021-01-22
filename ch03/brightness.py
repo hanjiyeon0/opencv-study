@@ -2,7 +2,6 @@ import sys
 import numpy as np
 import cv2
 
-
 # 그레이스케일 영상 불러오기
 src = cv2.imread('assets/dog.jpeg', cv2.IMREAD_GRAYSCALE)
 

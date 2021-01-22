@@ -2,7 +2,6 @@ import sys
 import numpy as np
 import cv2
 
-
 # 두 개의 동영상을 열어서 cap1, cap2로 지정
 cap1 = cv2.VideoCapture('video1.mp4')
 cap2 = cv2.VideoCapture('video2.mp4')

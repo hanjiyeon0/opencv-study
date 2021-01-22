@@ -1,7 +1,6 @@
 import sys
 import cv2
 
-
 # 카메라 열기
 cap = cv2.VideoCapture(0)
 

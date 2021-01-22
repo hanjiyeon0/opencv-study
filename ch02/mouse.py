@@ -2,7 +2,6 @@ import sys
 import numpy as np
 import cv2
 
-
 oldx = oldy = -1
 
 def on_mouse(event, x, y, flags, param):
@@ -20,7 +19,6 @@ def on_mouse(event, x, y, flags, param):
             cv2.line(img, (oldx, oldy), (x, y), (0, 0, 255), 4, cv2.LINE_AA)
             cv2.imshow('image', img)
             oldx, oldy = x, y
-
 
 img = np.ones((480, 640, 3), dtype=np.uint8) * 255
 

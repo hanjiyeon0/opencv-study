@@ -1,7 +1,6 @@
 import sys
 import cv2
 
-
 # 비디오 파일 열기
 cap = cv2.VideoCapture('assets/video_miru.mov')
 

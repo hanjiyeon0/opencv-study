@@ -2,7 +2,6 @@ import sys
 import numpy as np
 import cv2
 
-
 img = cv2.imread('cat.bmp', cv2.IMREAD_GRAYSCALE)
 
 if img is None:
